@@ -61,7 +61,7 @@ jobs:
 
   create_release:
     needs: check_version
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     if: needs.check_version.outputs.ALREADY_RELEASE == '0'
 
     steps:
