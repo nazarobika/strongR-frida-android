@@ -1,4 +1,4 @@
-name: strongR-frida
+name: fixed strongR-frida
 
 on:
   schedule:
